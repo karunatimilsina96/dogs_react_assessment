@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  font-family: "sans-serif";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-image: radial-gradient(
+    circle 248px at center,
+    #16d9e3 0%,
+    #30c7ec 47%,
+    #46aef7 100%
+  );
+  text-align: center;
+  height: 95vh;
+}
+
+.App-link {
+  color: white;
+}
+
+.Dog {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.Dog img {
+  width: 320px;
+  height: 320px;
+}
+
+.Links {
+  padding: 10px;
+  overflow: auto;
+}
+
+.Links button {
+  background-color: #04aa6d;
+  border: 1px solid green;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
